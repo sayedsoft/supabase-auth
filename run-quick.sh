@@ -9,5 +9,8 @@ echo "Setuping docker"
 sudo apt -y install docker-ce
 echo "Setuping docker-compose"
 sudo apt -y install docker-compose
+echo "Download docker-compose"
+git clone https://github.com/sayedsoft/supabase-auth.git
+cd supabase-auth
 echo "Run docker-compose"
 docker-compose up -d
