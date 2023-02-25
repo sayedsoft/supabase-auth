@@ -3,7 +3,9 @@
 Create file run-quick.sh
 
 ```sh
-touch run-quick.sh && chmod +x ./run-quick.sh
+$ wget https://github.com/sayedsoft/supabase-auth/blob/56764e505b1e180a31d4c9493e57e7e91f29ea55/run-quick.sh 
+$ chmod +x ./run-quick.sh 
+$ sudo ./run-quick.sh
 ```
 
 paste this code by nano editor
